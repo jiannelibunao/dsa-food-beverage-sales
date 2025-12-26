@@ -1,7 +1,7 @@
 # DSA Food and Beverage Sales Report
 Tools and Techniques: **MS Excel, Power Query, Power Pivot, Pivot Tables**
 
-![header](https://github.com/jiannelibunao/customer-campaign-intelligence/blob/217526b343122ecec4ba074c9362b032979fb1a3/Assets/marketing_dashboard.jpg)
+![header](https://github.com/jiannelibunao/dsa-food-beverage-sales/blob/d834f4173efdda156e94e5d86c849a20ee420f6f/Assets/header.png)
 
 ## Table of Contents
 1. Project Background
@@ -23,7 +23,7 @@ Insights and recommendations are provided on the following key areas:
 ## **Data Structure and Initial Checks**
 DSA Food and Beverage Excel dataset structure as see below consists of two sheets, [fSales] and [dProduct]. [fSales] sheet has 10 native columns with one primary key and has 245,848 sales records. [dProduct] has 5 native columns with one foreign key and has 799 unique products.
 
-![data-structure](https://github.com/jiannelibunao/customer-campaign-intelligence/blob/217526b343122ecec4ba074c9362b032979fb1a3/Assets/marketing_dashboard.jpg)
+![data-structure](https://github.com/jiannelibunao/dsa-food-beverage-sales/blob/d834f4173efdda156e94e5d86c849a20ee420f6f/Assets/data-structure.png)
 
 Prior to beginning the analysis, an inspection was conducted in Power Query to check any data errors. No issues were found and familiarization of the dataset was established.
 
@@ -32,7 +32,7 @@ With a 59.6% revenue increase year-over-year, the company has achieved meaningfu
 
 ## **Insights Deep Dive**
 ### Revenue Trajectory
-![revenue-trajectory](https://github.com/jiannelibunao/customer-campaign-intelligence/blob/217526b343122ecec4ba074c9362b032979fb1a3/Assets/marketing_dashboard.jpg)
+![revenue-trajectory](https://github.com/jiannelibunao/dsa-food-beverage-sales/blob/d834f4173efdda156e94e5d86c849a20ee420f6f/Assets/v1_revenue-trajectory.png)
 
 ####	Performance Highlights and Trends
 -	A 59.6% revenue increase year-over-year is a strong signal of overall business momentum.
@@ -46,7 +46,7 @@ With a 59.6% revenue increase year-over-year, the company has achieved meaningfu
 -	Revenue declined 17.3% month-over-month after October’s peak, hinting at a post-promo cooldown or supply constraints.
 
 ### Daily Transaction Patterns
-![daily-transaction](https://github.com/jiannelibunao/customer-campaign-intelligence/blob/217526b343122ecec4ba074c9362b032979fb1a3/Assets/marketing_dashboard.jpg)
+![daily-transaction](https://github.com/jiannelibunao/dsa-food-beverage-sales/blob/d834f4173efdda156e94e5d86c849a20ee420f6f/Assets/v2_daily-transactions.png)
 
 -	**Thursday leads in activity with 14.63% of weekly transactions**, but the margin over Tuesday (13.87%) is modest. This suggests a relatively even distribution across the week, with no extreme drop-offs.
 -	**Thursday to Sunday form the busiest stretch**, indicating that consumer engagement ramps up toward the weekend. This could reflect payday cycles, leisure shopping behavior, or promotional timing.
@@ -54,14 +54,14 @@ With a 59.6% revenue increase year-over-year, the company has achieved meaningfu
 -	**The difference between peak and trough is just 0.76 percentage points**, reinforcing that while Thursday is optimal, the week remains fairly balanced — ideal for consistent campaign pacing.
 
 ### Revenue Drivers
-![revenue-drivers](https://github.com/jiannelibunao/customer-campaign-intelligence/blob/217526b343122ecec4ba074c9362b032979fb1a3/Assets/marketing_dashboard.jpg)
+![revenue-drivers](https://github.com/jiannelibunao/dsa-food-beverage-sales/blob/d834f4173efdda156e94e5d86c849a20ee420f6f/Assets/v3_revenue-drivers.png)
 -	**Retail channel dominates**, contributing nearly half of total revenue at 49.16%. This suggests strong in-person engagement and possibly higher-margin transactions compared to online or distributor channels.
 -	**Food product account for 93.04% of total revenue**, making them the core driver of business performance. Drinking products, while present, play a minor role at just 6.96%.
 -	**Distributor sales at 33.92% show solid support**, possibly from B2B or wholesale partnerships. This channel could be optimized for scaling food product reach.
 -	**Online channels contribute only 16.92%**, which may indicate untapped potential for digital expansion, especially if food products can be packaged or marketed for e-commerce.
 
 ### Product Performance
-![product-performance](https://github.com/jiannelibunao/customer-campaign-intelligence/blob/217526b343122ecec4ba074c9362b032979fb1a3/Assets/marketing_dashboard.jpg)
+![product-performance](https://github.com/jiannelibunao/dsa-food-beverage-sales/blob/d834f4173efdda156e94e5d86c849a20ee420f6f/Assets/v4_product-performance.png)
 -	**Wheat Flour is the top performer**, contributing 39.41% of revenue among the top five products. Its dominance suggests strong demand for baking or staple ingredients.
 -	**Tomato Sauce ranks lowest**, with only 1.24% share among the bottom five. Despite a 107.1% increase from the previous month, its overall impact remains minimal.
 -	**Top products are baking-related**, which includes flour, yeast, and oil. This could indicate that ingredients used in bread or pastry preparation drive the bulk of sales.
@@ -69,7 +69,7 @@ With a 59.6% revenue increase year-over-year, the company has achieved meaningfu
 -	**Wheat Flour’s monthly unit sales dropped 16.5%**, which may signal saturation, seasonality, or pricing shifts despite its leading position.
 
 ### Employees’ Efficiency
-![employee-performance](https://github.com/jiannelibunao/customer-campaign-intelligence/blob/217526b343122ecec4ba074c9362b032979fb1a3/Assets/marketing_dashboard.jpg)
+![employee-performance](https://github.com/jiannelibunao/dsa-food-beverage-sales/blob/d834f4173efdda156e94e5d86c849a20ee420f6f/Assets/v5_employee-performance.png)
 -	**Mikaela Ong leads both in revenue and volume**, contributing 34.32% of total sales and 37.01% of units sold. Her dual dominance confirms consistent high-value and high-volume performance.
 -	**The top three performers, Mikaela, Marco, and Isabella, account for over 75% of total sales**, indicating a strong concentration of output among a few key contributors.
 
@@ -101,3 +101,7 @@ Based on the uncovered insights, the following recommendations have been provide
 
 ### 7. **Monitor Product Saturation**
 - Despite leading sales, **Wheat Flour saw a 16.5% drop in monthly units**. Investigate pricing, competition, or seasonal demand shifts to prevent erosion.
+
+
+## Let's Connect 🔗
+[LinkedIn](https://www.linkedin.com/in/jiannelibunao/ "LinkedIn")  |  Digital Portfolio
